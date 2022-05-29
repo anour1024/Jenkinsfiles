@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "node"
+        label "my_laptop"
     }
     stages{
         stage("A"){
